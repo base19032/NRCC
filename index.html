@@ -79,12 +79,16 @@
    
 
  
-    <!-- Unsubscribe Form -->
-<form method="POST" action="https://script.google.com/macros/s/AKfycbxxknRmLt7h_nRvjeGMF0qg6ounSo1rQk0rg2uzP-kTUsIyWSt5-sk--Y4ZKpeafSGK/exec">
-  <h3>Unsubscribe</h3>
-  <input name="email" type="email" placeholder="Enter your email to unsubscribe" required />
-  <button class="form-button" type="submit">Unsubscribe</button>
-</form>
+    <!-- Unsubscribe Form (JJ Style) -->
+    <div class="unsubscribe-form">
+      <h3>Too many emails?</h3>
+      <p>Enter your email below and we’ll never email you again.</p>
+      <form action="https://script.google.com/macros/s/AKfycbwSc8cIaMnSPhtTnJ-6O7r47R2qNMhZs_4YbDzhjP35SXtadlE0K58s6gkBfE-XJYL4WA/exec" method="GET">
+        <input type="email" name="unsubscribe" placeholder="Your email address" required />
+        <br/>
+        <button type="submit">Unsubscribe Me</button>
+      </form>
+    </div>
 
 
 
